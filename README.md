@@ -42,7 +42,8 @@ Find the file `index.js` and complete the tasks.
 
 Edit the `ReadMe` file with your answers.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). 
+A: Is a function enclosed within another function that references its surrouding function.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +64,12 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+a. Where is closure used in this code? How can you tell? 
+A:The closure is newRoll because it is enclosed within the personalDice function which would be the lexical scope.
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? 
+A:Everytime the function is called the dice number will change because the dice rolls everytime the name Dan will always be the same.
 c. What is the lexical scope of `newRoll`? 
+A:The Lexical scope is personalDice. 
 
 
 ### Task 3 - Stretch Goals
